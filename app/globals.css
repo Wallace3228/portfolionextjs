@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Some small global tweaks to mimic the original project */
+html, body, #__next {
+  height: 100%;
+}
+body {
+  transition: background-color .2s, color .2s;
+}
