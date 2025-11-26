@@ -63,6 +63,64 @@ const projects = [
     media: "/assets/demo3.webm",
     type: "video",
   },
+  {
+    name: "Recommendations engine",
+    description:
+      "API developed with FastAPI that recommends commercial services to users within an airport, taking into account their location and visit history.",
+    url: "https://github.com/Wallace3228/Recommendations-engine",
+    media: "/assets/demo1.mp4",
+    type: "video",
+  },
+  {
+    name: "Racing Manager Frontend design",
+    description: "Mobile App UI prototype based on Axure.",
+    url: "https://github.com/Wallace3228/Mobile-App-UX-UI-Prototype",
+    media: "/assets/demo4.mp4",
+    type: "video",
+  },
+  {
+    name: "Connect 4 AI Player",
+    description: "Minimax-based Connect 4 player built on Java.",
+    url: "https://github.com/Wallace3228/Jugador-Connecta4-Minimax",
+    media: "/assets/demo2.webm",
+    type: "video",
+  },
+  {
+    name: "Hex AI Player",
+    description: "Dijkstra-based Hex player built on Java.",
+    url: "https://github.com/Wallace3228/Jugador-Hex-Dijkstra",
+    media: "/assets/demo3.webm",
+    type: "video",
+  },
+  {
+    name: "Recommendations engine",
+    description:
+      "API developed with FastAPI that recommends commercial services to users within an airport, taking into account their location and visit history.",
+    url: "https://github.com/Wallace3228/Recommendations-engine",
+    media: "/assets/demo1.mp4",
+    type: "video",
+  },
+  {
+    name: "Racing Manager Frontend design",
+    description: "Mobile App UI prototype based on Axure.",
+    url: "https://github.com/Wallace3228/Mobile-App-UX-UI-Prototype",
+    media: "/assets/demo4.mp4",
+    type: "video",
+  },
+  {
+    name: "Connect 4 AI Player",
+    description: "Minimax-based Connect 4 player built on Java.",
+    url: "https://github.com/Wallace3228/Jugador-Connecta4-Minimax",
+    media: "/assets/demo2.webm",
+    type: "video",
+  },
+  {
+    name: "Hex AI Player",
+    description: "Dijkstra-based Hex player built on Java.",
+    url: "https://github.com/Wallace3228/Jugador-Hex-Dijkstra",
+    media: "/assets/demo3.webm",
+    type: "video",
+  },
 ];
 
 export default function Projects() {
