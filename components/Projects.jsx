@@ -57,7 +57,7 @@ export default function Projects() {
                 href={project.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 font-medium hover:underline text-base"
+                className="text-orange-600 font-medium hover:underline text-base"
               >
                 View on GitHub →
               </a>

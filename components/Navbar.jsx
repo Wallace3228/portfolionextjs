@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="flex flex-wrap justify-between items-center px-4 py-2 sm:px-6 sm:py-3 md:py-4 gap-y-3">
         <button
           onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); closeMenu() }}
-          className="text-lg sm:text-xl font-bold text-primary hover:text-blue-500"
+          className="text-lg sm:text-xl font-bold text-primary hover:text-orange-500"
         >
           Alex Matilla
         </button>
@@ -29,21 +29,21 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex items-center gap-5 text-sm sm:text-base text-gray-700 dark:text-gray-200">
-          <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="cursor-pointer hover:text-blue-500 bg-transparent border-none p-0">Home</button>
-          <a href="#projects" className="cursor-pointer hover:text-blue-500">Projects</a>
-          <a href="#about" className="cursor-pointer hover:text-blue-500">About</a>
-          <a href="#contact" className="cursor-pointer hover:text-blue-500">Contact</a>
-          <a href="/assets/cv.pdf" download className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 whitespace-nowrap">Download CV</a>
+          <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="cursor-pointer hover:text-orange-500 bg-transparent border-none p-0">Home</button>
+          <a href="#projects" className="cursor-pointer hover:text-orange-500">Projects</a>
+          <a href="#about" className="cursor-pointer hover:text-orange-500">About</a>
+          <a href="#contact" className="cursor-pointer hover:text-orange-500">Contact</a>
+          <a href="/assets/cv.pdf" download className="bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 whitespace-nowrap">Download CV</a>
         </div>
       </div>
 
       <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${menuOpen ? 'max-h-96 opacity-100 py-4' : 'max-h-0 opacity-0 py-0'}`}>
         <div className="flex flex-col items-center gap-4 text-gray-700 dark:text-gray-200">
-          <button onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); closeMenu() }} className="hover:text-blue-500">Home</button>
-          <a href="#projects" onClick={closeMenu} className="hover:text-blue-500">Projects</a>
-          <a href="#about" onClick={closeMenu} className="hover:text-blue-500">About</a>
-          <a href="#contact" onClick={closeMenu} className="hover:text-blue-500">Contact</a>
-          <a href="/assets/cv.pdf" download onClick={closeMenu} className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Download CV</a>
+          <button onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); closeMenu() }} className="hover:text-orange-500">Home</button>
+          <a href="#projects" onClick={closeMenu} className="hover:text-orange-500">Projects</a>
+          <a href="#about" onClick={closeMenu} className="hover:text-orange-500">About</a>
+          <a href="#contact" onClick={closeMenu} className="hover:text-orange-500">Contact</a>
+          <a href="/assets/cv.pdf" download onClick={closeMenu} className="bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700">Download CV</a>
         </div>
       </div>
     </nav>

@@ -98,7 +98,7 @@ export default function About() {
                 w-16 h-16
                 border border-gray-300 dark:border-gray-600
                 rounded-xl
-                text-blue-500
+                text-orange-500
                 font-semibold
                 text-sm
                 cursor-default
